@@ -17,9 +17,16 @@ const Developer = ({animationName = 'idle', ...props}) => {
     idleAnimation[0].name = 'idle'; 
     saluteAnimation[0].name = 'salute'; 
     clappingAnimation[0].name = 'clapping'; 
-    victoryAnimation[0].name = 'victory'; 
+    victoryAnimation[0  ].name = 'victory'; 
 
     const {actions} = useAnimations([idleAnimation[0], saluteAnimation[0], clappingAnimation[0], victoryAnimation[0]], group);
+
+    useEffect(() => {
+        const headBone = nodes.Wolf3D_Head.skeleton.bones.find(bone => bone.name === 'Head');
+        if (headBone) {
+          headBone.rotation.x = 0.9; // Rotate head downwards by 5 degrees
+        }
+      }, []);
 
     useEffect(() => {
         actions[animationName].reset().fadeIn(0.5).play();
@@ -27,7 +34,7 @@ const Developer = ({animationName = 'idle', ...props}) => {
     }, [animationName])
 
   return (
-    <group {...props} dispose={null} ref = {group}>
+    <group {...props} dispose={null} ref = {group}  rotation={[0.3, 0, 0]} > // Tilt down by 5 degrees around the X-axis
       <primitive object={nodes.Hips} />
       <skinnedMesh
         name="EyeLeft"
