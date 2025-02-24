@@ -58,12 +58,12 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'EggsByTheDozen - AI Parasite Detector',
+      desc: 'Co-developed a website with a team of 5 fellow undergraduates that utilized a feature extraction algorithm leveraging OpenCV and a novel parameter optimization algorithm to detect parasite eggs in goat fecal matter for goat farmers that greatly reduced the cost and time for the detection of parasites.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
-      texture: '/textures/project/project1.mp4',
+        'Helped develop an algorithm that would extract elliptical contours that yielded 18.3% average percent error in egg count.',
+      href: 'https://github.com/3amBEANS/EggsByTheDozen',
+      texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
         backgroundColor: '#2A1816',
@@ -80,7 +80,7 @@ export const navLinks = [
         {
           id: 2,
           name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          path: 'assets/openCV.png',
         },
         {
           id: 3,
@@ -95,11 +95,11 @@ export const navLinks = [
       ],
     },
     {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+      title: 'Vigilant - Gun Detection App',
+      desc: 'Developed a gun-detecting app that employed TensorFlow and a Spring Boot back end along with Google Firebase to detect the presence of firearms on external cameras.',
       subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+        'Employed Flutter and Dart for the front-end, enhancing the user experience with simplified and aesthetically pleasing UI that improved the user experience.',
+      href: 'https://github.com/ggordi/congress-app-2021',
       texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo2.png',
       logoStyle: {
@@ -111,33 +111,33 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'Tensorflow',
+          path: '/assets/tensorflow.png',
         },
         {
           id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          name: 'Spring Boot',
+          path: 'assets/springboot.png',
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
+          name: 'Dart',
+          path: '/assets/dartLogo.png',
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
+          name: 'Flutter',
+          path: '/assets/flutter.png',
         },
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'HandCounter - Personal ML Project',
+      desc: 'Co-developed a program that utilized OpenCV and employed Bayesian optimization techniques to detect the number of raised hands in a picture that yielded around an 80% accuracy rate.',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
-      texture: '/textures/project/project3.mp4',
+        'Imported the Hands model from MediaPipe which combines different models to locate sub-features that make up the hand including locating the wrist and each individual finger.',
+      href: 'https://www.youtube.com/watch?v=8Xhr4TtbFLM',
+      texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
@@ -151,32 +151,32 @@ export const navLinks = [
         {
           id: 1,
           name: 'React.js',
-          path: '/assets/react.svg',
+          path: '/assets/openCV.png',
         },
         {
           id: 2,
           name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
+          path: 'assets/react.svg',
         },
         {
           id: 3,
           name: 'TypeScript',
-          path: '/assets/typescript.png',
+          path: '/assets/googleColab.png',
         },
         {
           id: 4,
           name: 'Framer Motion',
-          path: '/assets/framer.png',
+          path: '/assets/nodeJS.png',
         },
       ],
     },
     {
-      title: 'Horizon - Online Banking Platform',
-      desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+      title: 'ByteSmith - Bitwise Calculator',
+      desc: 'Won Second Best Hack Overall at the Hack the Map hackathon, creating a bitwise calculator utilizing node.js and svelte.',
       subdesc:
-        'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-      href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
-      texture: '/textures/project/project4.mp4',
+        'The user can input any form of valid bitwise operations (i.e. (~3 + 4 << 2) & (1 ^ 5)) and the site will evaluate each expression in the correct order, and show the user each step in binary, hexadecimal, and decimal.',
+      href: 'https://byte-smith.vercel.app/',
+      texture: '/textures/project/project2.mp4',
       logo: '/assets/project-logo4.png',
       logoStyle: {
         backgroundColor: '#0E1F38',
@@ -198,52 +198,16 @@ export const navLinks = [
         {
           id: 3,
           name: 'TypeScript',
-          path: '/assets/typescript.png',
+          path: '/assets/svelte.png',
         },
         {
           id: 4,
           name: 'Framer Motion',
-          path: '/assets/framer.png',
+          path: '/assets/nodeJS.png',
         },
       ],
     },
-    {
-      title: 'Imaginify - AI Photo Manipulation App',
-      desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-      subdesc:
-        'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-      href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-      texture: '/textures/project/project5.mp4',
-      logo: '/assets/project-logo5.png',
-      logoStyle: {
-        backgroundColor: '#1C1A43',
-        border: '0.2px solid #252262',
-        boxShadow: '0px 0px 60px 0px #635BFF4D',
-      },
-      spotlight: '/assets/spotlight5.png',
-      tags: [
-        {
-          id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
-        },
-        {
-          id: 2,
-          name: 'TailwindCSS',
-          path: 'assets/tailwindcss.png',
-        },
-        {
-          id: 3,
-          name: 'TypeScript',
-          path: '/assets/typescript.png',
-        },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/assets/framer.png',
-        },
-      ],
-    },
+    
   ];
   
   export const calculateSizes = (isSmall, isMobile, isTablet) => {
@@ -260,29 +224,29 @@ export const navLinks = [
   export const workExperiences = [
     {
       id: 1,
-      name: 'Framer',
-      pos: 'Lead Web Developer',
-      duration: '2022 - Present',
-      title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-      icon: '/assets/framer.svg',
+      name: 'StreamHorseTV',
+      pos: 'Digital Media Intern',
+      duration: '2024 - Present',
+      title: "Initiated and launched a full-stack web application using Django to aggregate and analyze impression, engagement, and view count data for 300+ creators across Instagram, Facebook, and YouTube APIs.",
+      icon: '/assets/streamhorseTransparent.png',
       animation: 'victory',
     },
     {
       id: 2,
-      name: 'Figma',
-      pos: 'Web Developer',
-      duration: '2020 - 2022',
-      title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-      icon: '/assets/figma.svg',
+      name: 'Starlight Vintage Studios',
+      pos: 'Junior Programmer',
+      duration: '2023 - 2023',
+      title: "Developed user interfaces in Unity, including a statistics tracker that boosted game replayability by 30%. Collaborated with teams to test the game on Epic Games and Steam, reported performance bugs, and assisted in resolving cross-platform issues for Meta Quest and PC.",
+      icon: '/assets/starlightVintage.png',
       animation: 'clapping',
     },
     {
       id: 3,
-      name: 'Notion',
-      pos: 'Junior Web Developer',
-      duration: '2019 - 2020',
-      title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-      icon: '/assets/notion.svg',
+      name: 'George Mason University',
+      pos: 'SWE Intern',
+      duration: '2022 - 2022',
+      title: "Directed a team of 5 engineers under Professor Nam from George Mason to develop, test, and improve a war-time simulation using Unity that simulated the geopolitical tensions between five separate warring states to educate users on the Russian-Ukraine conflict.",
+      icon: '/assets/gmuLogo.png',
       animation: 'salute',
     },
   ];

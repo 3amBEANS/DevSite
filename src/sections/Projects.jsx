@@ -22,7 +22,7 @@ const handleNavigation = (direction) => {
     })
 }
   return (
-    <section className='c-space my-20'>
+    <section className='c-space my-20' id = 'work'>
         <p className='head-text'>
             My Work
         </p>
@@ -55,7 +55,8 @@ const handleNavigation = (direction) => {
                     </div>
 
                     <a className='flex items-center gap-2 cursor-pointer text-white-600' href={currentProject.href} target="_blank" rel="noreferrer">
-                        <p>Check Live Site</p>
+                        {/*<p>Check Live Site</p>*/}
+                        <p>Check Out Project</p>
                         <img src="/assets/arrow-up.png" className="w-3 h-3" alt="arrow" />
                     </a>
                 </div>
