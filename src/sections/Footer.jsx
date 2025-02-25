@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
   return (
@@ -10,20 +10,27 @@ const Footer = () => {
         </div>
 
         <div className="flex gap-3">
-            <div className='social-icon'>
-                <img src = "/assets/github.svg" alt= "github" className='w-1/2 h-1/2' href = "www.youtube.com"/>
+            <div className='social-icon flex justify-center items-center w-10 h-10 rounded-full bg-gray-800'>
+                <a href="https://github.com/3amBEANS" target="_blank" rel="noopener noreferrer">
+                    <img src="/assets/github.svg" alt="github" className='w-6 h-6' />
+                </a>
             </div>
-            <div className='social-icon'>
-                <img src = "/assets/twitter.svg" alt= "github" className='w-1/2 h-1/2' />
-            </div>
-            <div className='social-icon'>
-                <img src = "/assets/instagram.svg" alt= "instagram" className='w-1/2 h-1/2' />
+            {/* <div className='social-icon flex justify-center items-center w-10 h-10 rounded-full bg-gray-800'>
+                <a href="https://twitter.com/your-twitter-username" target="_blank" rel="noopener noreferrer">
+                    <img src="/assets/twitter.svg" alt="twitter" className='w-6 h-6' />
+                </a>
+            </div> */}
+            
+            <div className='social-icon flex justify-center items-center w-10 h-10 rounded-full bg-gray-800'>
+                <a href="https://www.instagram.com/aiden.ha_acc/" target="_blank" rel="noopener noreferrer">
+                    <img src="/assets/instagram.svg" alt="instagram" className='w-6 h-6' />
+                </a>
             </div>
         </div>
 
         <p className='text-white-500'>© Aiden. All rights reserved. </p>
     </section>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
