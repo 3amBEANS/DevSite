@@ -23,3 +23,14 @@ Check out the live version of the website here: [Aiden Ha's Portfolio](https://a
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/aidenha-portfolio.git
+
+2. Install dependencies:
+   ```bash
+   npm install
+
+3. Clone the repository:
+   ```bash
+  npm run dev
+``
+## Contribution
+Feel free to open issues or submit pull requests if you want to contribute or suggest improvements!
