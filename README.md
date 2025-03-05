@@ -30,7 +30,7 @@ Check out the live version of the website here: [Aiden Ha's Portfolio](https://a
 
 3. Clone the repository:
    ```bash
-      npm run dev
+   npm run dev
   
 ## Contribution
 Feel free to open issues or submit pull requests if you want to contribute or suggest improvements!
