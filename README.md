@@ -1,4 +1,8 @@
-# React + Vite
+# Welcome to my Personal Website that I developed
+
+## Check out the live website here: https://aidenha.vercel.app/
+
+Utilized Vite + React + Three.js to make the website engaging and user friendly!
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
