@@ -1,12 +1,25 @@
-# Welcome to my Personal Website that I developed
+# Aiden Ha's Personal Website
 
-## Check out the live website here: https://aidenha.vercel.app/
+Welcome to the repository for my personal website, which showcases my development portfolio.
 
-Utilized Vite + React + Three.js to make the website engaging and user friendly!
+## Live Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Check out the live version of the website here: [Aiden Ha's Portfolio](https://aidenha.vercel.app/)
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Vite**: Used for fast and optimized development.
+- **React**: A powerful JavaScript library for building interactive UIs.
+- **Three.js**: Utilized for creating 3D interactive visuals, adding a dynamic touch to the site.
+
+## Features
+
+- **Engaging User Experience**: Interactive and visually rich UI powered by React and Three.js.
+- **Responsive Design**: The website is fully responsive and optimized for both desktop and mobile devices.
+- **Smooth Performance**: Vite ensures fast loading and smooth transitions throughout the site.
+
+## Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/aidenha-portfolio.git
